@@ -1,6 +1,10 @@
 {
   "name": "document-score",
-  "scripts": {},
+  "scripts": {
+    "deploy": "npx hardhat run ./scripts/deploy.js --network ropsten",
+    "compile": "npx hardhat compile",
+    "test": "npx hardhat test"
+  },
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.2",
     "@nomiclabs/hardhat-etherscan": "^3.0.0",
